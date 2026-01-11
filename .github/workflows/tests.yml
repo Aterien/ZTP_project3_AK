@@ -12,6 +12,6 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install pytest
+      - run: pip install pytest pandas numpy matplotlib seaborn requests beautifulsoup4 openpyxl
 
       - run: pytest
